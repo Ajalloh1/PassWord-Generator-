@@ -16,7 +16,7 @@ function writePassword() {
     return null;
   }
 
-  // codes for password characteristic questions.//
+  // codes for password characteristic questions. Pls ensure to read prompt.//
 
   var passwordUpperCase = confirm("Would you like Upper Case Letters?");
   var passwordLowerCase = confirm("Would you like Lower Case Letters?");
