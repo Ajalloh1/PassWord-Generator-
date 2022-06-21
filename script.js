@@ -7,7 +7,7 @@ function writePassword() {
   var passwordLength = prompt("How many characters do you want your password  to be?");
   //character length validation.//
   if (passwordLength < 8) {
-    alert("Password Lenght Must be atleast 8 characters long");
+    alert("Password Lenght Must be ATLEAST 8 characters long");
     return null;
   }
   else if (passwordLength > 128) {
@@ -18,10 +18,10 @@ function writePassword() {
 
   // codes for password characteristic questions. Pls ensure to read prompt.//
 
-  var passwordUpperCase = confirm("Would you like Upper Case Letters?");
-  var passwordLowerCase = confirm("Would you like Lower Case Letters?");
+  var passwordUpperCase = confirm("Would you like to include Upper Case Letters?");
+  var passwordLowerCase = confirm("Would you like to include Lower Case Letters?");
   var passwordNumbers = confirm("Would you like to Numbers?");
-  var passwordSpecialCharacter = confirm("Would you like to Special Characters?");
+  var passwordSpecialCharacter = confirm("Would you like to include Special Characters?");
   console.log(passwordLength);
   var password = generatePassword(passwordLength,
     passwordUpperCase,
