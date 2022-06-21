@@ -20,7 +20,7 @@ function writePassword() {
 
   var passwordUpperCase = confirm("Would you like to include Upper Case Letters?");
   var passwordLowerCase = confirm("Would you like to include Lower Case Letters?");
-  var passwordNumbers = confirm("Would you like to Numbers?");
+  var passwordNumbers = confirm("Would you like to include Numbers?");
   var passwordSpecialCharacter = confirm("Would you like to include Special Characters?");
   console.log(passwordLength);
   var password = generatePassword(passwordLength,
